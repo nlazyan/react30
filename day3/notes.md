@@ -4,5 +4,12 @@ It's important to place our <script>(see day1 files) loading tags before we star
 Also inside head is a script tag that includes a library, babel-core.
 
 -------------------------------------------------------------
+Babel
 
+Babel is a library for transpiling ES6 to ES5.
+Inside body, we have a script body. Inside of script, we define our first React application. Note that the script tag has a type of text/babel:
+
+<script type="text/babel">
+
+This signals to Babel that we would like it to handle the execution of the JavaScript inside this script body, this way we can write our React app using ES6 JavaScript and be assured that Babel will live-transpile its execution in browsers that only support ES5.
 
