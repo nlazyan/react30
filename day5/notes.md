@@ -17,6 +17,16 @@ this two codes do the same work
 
 ---------------------------------------------------------------------------------------
 
+Variables
 
+We define variables in render() function before return
+
+class Content extends React.Component {
+  render() {
+    const {activity} = this.props; // ES6 destructuring
+
+    return ( )
+ }
+}
 
 
